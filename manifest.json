@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+  
+    "name": "BEARs SURPLUS",
+    "version": "0.1.0",
+    "description": "Bear taking over",
+  
+    "content_scripts": [
+      {
+        "js": ["content.js"],
+        "matches": ["<all_urls>"]
+      }
+    ]
+  }
